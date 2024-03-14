@@ -4,20 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="bg-blue-500 p-4">
+      <h1 className="text-3xl font-bold text-white">Hello, Tailwind CSS!</h1>
+      <p className="text-lg text-white mt-2">This is a test component.</p>
+      <button className="bg-green-500 text-white font-bold py-2 px-4 rounded mt-4 hover:bg-green-600">
+        Click me
+      </button>
+    </div>
     </div>
   );
 }
